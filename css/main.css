@@ -1,12 +1,20 @@
 #main-nav {
     display: flex;
+    background-color: aquamarine;
 }
 
 .navbar-name {
-    display: inline;
-    width: 170px;
+    /* display: block; */
+    width: 240px;
     float: left;
     border: 1px solid;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+
+.navbar-name a {
+    padding: auto;
 }
 
 .navbar-category {
@@ -24,4 +32,58 @@
 li {
     display: inline;
     border: 1px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+li a {
+    font-size: 2em;
+}
+
+li span {
+    font-size: 2em;
+}
+
+#start {
+    border: 1px solid;
+    width: 100%;
+}
+
+#CV {
+    border: 1px solid;
+    width: 100%;
+}
+
+#projects {
+    border: 1px solid;
+}
+
+.bodyContents {
+    padding-left: 17rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#startTop {
+    font-size: 1.5em;
+}
+
+#startMain {
+    font-size: 3em;
+}
+
+#CVTop {
+    font-size: 1.5em;
+}
+
+#CVMain {
+    font-size: 3em;
+}
+
+#projectsTop {
+    font-size: 1.5em;
+}
+
+#projectsMain {
+    font-size: 3em;
 }
