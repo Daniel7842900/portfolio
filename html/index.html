@@ -3,71 +3,160 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- To ensure proper rendering and touch zooming. -->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../css/main.css">
-</head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- To import font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></head>
 <body>
     <div class="curtain">
         
     </div>
     <header>
-        <nav id="main-nav">
-            <div class="navbar-name">
-                <a>DongJae Kim</a>
+        <nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#">DongJae Kim</a>
+                </div>
+                <div class="navbar-collapse navbar-category navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <!-- href="#" takes you to the top of the page. -->
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a>Publications</a>
+                            <span>/></span>
+                        </li>    
+                        <li>
+                            <a>CV</a>
+                            <span>/></span>
+                        </li>
+                        <li>
+                            <a>Projects</a>
+                            <span>/></span>
+                        </li>
+                        <li>
+                            <a>Contact</a>
+                            <span>/></span>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-category">
-                <ul class="navbar-nav">
+            <!-- <div class="navbar-name">
+                <a>DongJae Kim</a>
+            </div> -->
+            <!-- <div class="navbar-category navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        href="#" takes you to the top of the page.
+                        <a href="#">Home</a>
+                    </li>
                     <li>
-                        <a>Start</a>
+                        <a>Publications</a>
                         <span>/></span>
                     </li>    
                     <li>
-                        <a>About</a>
+                        <a>CV</a>
                         <span>/></span>
                     </li>
                     <li>
                         <a>Projects</a>
                         <span>/></span>
                     </li>
+                    <li>
+                        <a>Contact</a>
+                        <span>/></span>
+                    </li>
                 </ul>
-            </div>
+            </div> -->
         </nav>
     </header>
-    <div id="start">
-        <div class="bodyContents">
-            <span id="startSpan">
-                <div id="startTop">
-                    <a>Start /></a>
-                </div>
-                <div id="startMain">
-                    <a>Hi, my name is Dongjae Kim</a>
-                </div>
-            </span>
+    <section>
+        <div id="about">
+            <div id="aboutContents">
+                <span id="aboutSpan">
+                    <div id="aboutTop">
+                        <div id="aboutImgDiv">
+                            <img src="../assests/monkey.jpeg">
+                        </div>
+                    </div>
+                    <div id="aboutMain">
+                        <p>Hi, my name is Dongjae Kim</p>
+                    </div>
+                </span>
+            </div>
         </div>
-    </div>
-    <div id="CV">
-        <div class="bodyContents">
-            <span id="CVSpan">
-                <div id="CVTop">
-                    <a>About /></a>
+    </section>
+    <section>
+        <div id="publications">
+            <div id="publicationsContents">
+                <span id="publicationsSpan">
+                    <div id="publicationsTop">
+                        <p>Publications</p>
+                    </div>
+                    <div id="publicationsMain">
+                        <p>This section is for publications.</p>
+                    </div>
+                </span>
+                <div>
+                    <p>Published</p>
                 </div>
-                <div id="CVMain">
-                    <a>Please click this CV for more information.</a>
-                </div>
-            </span>
+            </div>
         </div>
-    </div>
-    <div id="projects">
-        <div class="bodyContents">
-            <span id="projectsSpan">
-                <div id="projectsTop">
-                    <a>Projects /></a>
-                </div>
-                <div id="projectsMain">
-                    <a>This is a section for projects</a>
-                </div>
-            </span>
+    </section>
+    <section>
+        <div id="CV">
+            <div class="bodyContents">
+                <span id="CVSpan">
+                    <div id="CVTop">
+                        <p>CV</p>
+                    </div>
+                    <div id="CVMain">
+                        <p>Please click this CV for more information.</p>
+                    </div>
+                </span>
+            </div>
         </div>
-    </div>
+    </section>
+    <section>
+        <div id="projects">
+            <div class="bodyContents">
+                <span id="projectsSpan">
+                    <div id="projectsTop">
+                        <p>Projects</p>
+                    </div>
+                    <div id="projectsMain">
+                        <p>This is a section for projects</p>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="contact">
+            <div class="bodyContents">
+                <span id="contactSpan">
+                    <div id="contactTop">
+                        <p>Contact</p>
+                    </div>
+                    <div id="contactMain">
+                        <p></p>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

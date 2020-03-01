@@ -37,14 +37,19 @@ li {
 }
 
 li a {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 li span {
     font-size: 2em;
 }
 
-#start {
+#about {
+    border: 1px solid;
+    width: 100%;
+}
+
+#publications {
     border: 1px solid;
     width: 100%;
 }
@@ -58,17 +63,29 @@ li span {
     border: 1px solid;
 }
 
+#contact {
+    border: 1px solid;
+}
+
+#aboutContents {
+    text-align: center;
+}
+
 .bodyContents {
     padding-left: 17rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
 
-#startTop {
+#aboutImgDiv {
+    border: 1px solid;
+}
+
+#publicationsTop {
     font-size: 1.5em;
 }
 
-#startMain {
+#publicationsMain {
     font-size: 3em;
 }
 
@@ -86,4 +103,8 @@ li span {
 
 #projectsMain {
     font-size: 3em;
+}
+
+#contactTop {
+    font-size: 1.5em;
 }
