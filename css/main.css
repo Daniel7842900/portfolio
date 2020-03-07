@@ -1,6 +1,6 @@
 #main-nav {
     display: flex;
-    background-color: aquamarine;
+    background-color: #0c3001;
 }
 
 .navbar-name {
@@ -29,16 +29,98 @@
     justify-content: flex-end;
 }
 
+.navbar-default {
+    border: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    margin-right: -10rem;
+    font-size: 1.1em;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: Helvetica;
+    /* font-weight: bold; */
+    font-size: 1.75em;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: #6d8067;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #6d8067;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+    background-color: #0c3001;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    color: white;
+    background-color: #6d8067;
+}
+
 /* li {
     display: inline;
 } */
 
 .intro {
     text-align: center;
+    background-color: #0c3001;
+    padding-top: 7rem;
+}
+
+.intro .intro-text p {
+    color: white;
+    font-size: 2em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#profileImg {
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 18rem;
+    height: 18rem;
+}
+
+#publications {
+    margin-top: 10rem;
+    padding-top: 10rem;
+}
+
+#publicationsTop {
+    font-family: Helvetica;
+    font-size: 4em;
+}
+
+#publications p {
+    font-size: 1.5em;
+    margin-top: 4rem;
 }
 
 #published {
     text-align: left;
+    margin-top: 10rem;
+    font-size: 3em;
+}
+
+#publications ul {
+    margin-top: 5rem;
 }
 
 .content-section ul {
@@ -47,12 +129,22 @@
     padding-left: 0em;
 }
 
-#aboutContents {
-    text-align: center;
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
 }
 
-.bodyContents {
-    padding-left: 17rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+.authors {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+.publisher {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+.links {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
 }
