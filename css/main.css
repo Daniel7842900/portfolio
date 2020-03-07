@@ -29,42 +29,22 @@
     justify-content: flex-end;
 }
 
-li {
+/* li {
     display: inline;
-    border: 1px solid;
-    padding-left: 1rem;
-    padding-right: 1rem;
+} */
+
+.intro {
+    text-align: center;
 }
 
-li a {
-    font-size: 1.5em;
+#published {
+    text-align: left;
 }
 
-li span {
-    font-size: 2em;
-}
-
-#about {
-    border: 1px solid;
-    width: 100%;
-}
-
-#publications {
-    border: 1px solid;
-    width: 100%;
-}
-
-#CV {
-    border: 1px solid;
-    width: 100%;
-}
-
-#projects {
-    border: 1px solid;
-}
-
-#contact {
-    border: 1px solid;
+.content-section ul {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0em;
 }
 
 #aboutContents {
@@ -75,36 +55,4 @@ li span {
     padding-left: 17rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-}
-
-#aboutImgDiv {
-    border: 1px solid;
-}
-
-#publicationsTop {
-    font-size: 1.5em;
-}
-
-#publicationsMain {
-    font-size: 3em;
-}
-
-#CVTop {
-    font-size: 1.5em;
-}
-
-#CVMain {
-    font-size: 3em;
-}
-
-#projectsTop {
-    font-size: 1.5em;
-}
-
-#projectsMain {
-    font-size: 3em;
-}
-
-#contactTop {
-    font-size: 1.5em;
 }
