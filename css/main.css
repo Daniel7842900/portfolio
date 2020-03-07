@@ -148,3 +148,63 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
 }
+
+#cv {
+    margin-top: 10rem;
+    padding-top: 10rem;
+}
+
+#cvTop {
+    font-family: Helvetica;
+    font-size: 4em;
+}
+
+#cv p {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+}
+
+#cv iframe {
+    margin-top: 3rem;
+}
+
+#projects {
+    margin-top: 10rem;
+    padding-top: 10rem;
+}
+
+#projectsTop {
+    font-family: Helvetica;
+    font-size: 4em;
+}
+
+#projects ul {
+    margin-top: 5rem;
+}
+
+.titleProject {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.explanationProject {
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact {
+    margin-top: 10rem;
+    padding-top: 10rem;
+}
+
+#contactTop {
+    font-family: Helvetica;
+    font-size: 4em;
+}
+
+#contact p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-top: 3rem;
+}
