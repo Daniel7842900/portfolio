@@ -51,11 +51,15 @@
 .navbar-default .navbar-brand {
     color: white;
     font-family: Helvetica;
-    /* font-weight: bold; */
     font-size: 1.75em;
 }
 
 .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: #6d8067;
+}
+
+.navbar-default .navbar-brand:visited {
     color: white;
     background-color: #6d8067;
 }
